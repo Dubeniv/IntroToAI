@@ -48,4 +48,3 @@ if __name__ == "__main__":
     from easyAI import AI_Player, Negamax
     ai_algo = Negamax(6)
     TicTacToe( [Human_Player(),AI_Player(ai_algo)]).play()
-    print('test')
